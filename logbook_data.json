@@ -1,0 +1,1334 @@
+{
+    "teachers": [
+        {
+            "subjects": ["Math"],
+            "name": "Mr. Thomas Bennett",
+            "id": 101
+        },
+        {
+            "subjects": ["English"],
+            "name": "Ms. Sarah Johnson",
+            "id": 102
+        },
+        {
+            "subjects": ["History"],
+            "name": "Mr. David Smith",
+            "id": 103
+        },
+        {
+            "subjects": ["Science"],
+            "name": "Dr. Emily Roberts",
+            "id": 104
+        },
+        {
+            "subjects": ["Art"],
+            "name": "Ms. Jessica Turner",
+            "id": 105
+        },
+        {
+            "subjects": ["P.E."],
+            "name": "Mr. James Walker",
+            "id": 106
+        },
+        {
+            "subjects": ["Music"],
+            "name": "Ms. Olivia Green",
+            "id": 107
+        }
+    ],
+    "subjects": [
+        {
+            "name": "Math",
+            "description": ""
+        },
+        {
+            "name": "History",
+            "description": ""
+        },
+        {
+            "name": "Science",
+            "description": ""
+        },
+        {
+            "name": "Art",
+            "description": ""
+        },
+        {
+            "name": "Music",
+            "description": ""
+        },
+        {
+            "name": "P.E.",
+            "description": ""
+        },
+        {
+            "name": "English",
+            "description": ""
+        }
+    ],
+    "students": [
+        {
+            "grade": 8,
+            "subjects": [
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        5,
+                        1,
+                        2
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        1,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        1,
+                        5,
+                        5,
+                        3,
+                        4
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        3,
+                        4,
+                        5,
+                        3,
+                        5
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Alexander Jackson",
+            "id": 1
+        },
+        {
+            "grade": 10,
+            "subjects": [
+                {
+                    "scores": [
+                        4,
+                        4,
+                        5,
+                        3,
+                        4,
+                        4,
+                        4
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        2
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        1,
+                        4,
+                        3,
+                        2,
+                        1,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Amelia Garcia",
+            "id": 2
+        },
+        {
+            "grade": 6,
+            "subjects": [
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        3,
+                        5,
+                        2,
+                        3
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        5,
+                        3
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        3,
+                        4
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        3,
+                        5,
+                        2,
+                        3
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        2,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Ava Wilson",
+            "id": 3
+        },
+        {
+            "grade": 2,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Benjamin Clark",
+            "id": 4
+        },
+        {
+            "grade": 4,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        2,
+                        4,
+                        5
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        5,
+                        5,
+                        2,
+                        5,
+                        2
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        3,
+                        3,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        4,
+                        3,
+                        2
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        3,
+                        5,
+                        5,
+                        3
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        5,
+                        3,
+                        4
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Charlotte Martin",
+            "id": 5
+        },
+        {
+            "grade": 1,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        5,
+                        4,
+                        3,
+                        4
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        4,
+                        4,
+                        3,
+                        3,
+                        4,
+                        4
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        2
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        5,
+                        3,
+                        2,
+                        3
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2,
+                        1,
+                        5,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Daniel Moore",
+            "id": 6
+        },
+        {
+            "grade": 9,
+            "subjects": [
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        3,
+                        3
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        4,
+                        3
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "David Thompson",
+            "id": 7
+        },
+        {
+            "grade": 3,
+            "subjects": [
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        5,
+                        3,
+                        2,
+                        3
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        1,
+                        4,
+                        5
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        1,
+                        5,
+                        5,
+                        3,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Emily Johnson",
+            "id": 8
+        },
+        {
+            "grade": 10,
+            "subjects": [
+                {
+                    "scores": [
+                        3,
+                        4,
+                        5,
+                        5,
+                        5,
+                        3,
+                        4
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        1,
+                        4,
+                        3,
+                        2,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2,
+                        1,
+                        3,
+                        3
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        1,
+                        4,
+                        3
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Ethan Anderson",
+            "id": 9
+        },
+        {
+            "grade": 1,
+            "subjects": [
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        5,
+                        5,
+                        3,
+                        5
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        1,
+                        5,
+                        5,
+                        3,
+                        4,
+                        3,
+                        3
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        3,
+                        4,
+                        5,
+                        3,
+                        5,
+                        5,
+                        3
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        3,
+                        5,
+                        3
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Harper Robinson",
+            "id": 10
+        },
+        {
+            "grade": 9,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5,
+                        5,
+                        5,
+                        3
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        4,
+                        5,
+                        3,
+                        3,
+                        1,
+                        4,
+                        3
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        3,
+                        5,
+                        3,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        3,
+                        2,
+                        3,
+                        5,
+                        2,
+                        5
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        1,
+                        3,
+                        5,
+                        2,
+                        5,
+                        3,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Isabella Taylor",
+            "id": 11
+        },
+        {
+            "grade": 9,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        2,
+                        5,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        4,
+                        3,
+                        1,
+                        4,
+                        4
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        5,
+                        4,
+                        2,
+                        4
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        5,
+                        4,
+                        5,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        2,
+                        4
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        5,
+                        2,
+                        1,
+                        3
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        3,
+                        4,
+                        3,
+                        5,
+                        4,
+                        2
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Jacob Williams",
+            "id": 12
+        },
+        {
+            "grade": 12,
+            "subjects": [
+                {
+                    "scores": [
+                        1,
+                        5,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        3,
+                        4,
+                        5,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5,
+                        3
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        4,
+                        4
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "James Martinez",
+            "id": 13
+        },
+        {
+            "grade": 4,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5,
+                        4,
+                        4
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2,
+                        5,
+                        3
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        1,
+                        4,
+                        3,
+                        2,
+                        1,
+                        5,
+                        4
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Joshua Miller",
+            "id": 14
+        },
+        {
+            "grade": 5,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        2
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        5,
+                        2,
+                        2,
+                        3
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        4
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        1,
+                        4,
+                        3,
+                        2,
+                        1,
+                        5,
+                        4
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2,
+                        5,
+                        3
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Matthew Harris",
+            "id": 15
+        },
+        {
+            "grade": 11,
+            "subjects": [
+                {
+                    "scores": [
+                        1,
+                        4,
+                        3,
+                        2,
+                        1,
+                        5
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        2
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        2
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        5,
+                        2,
+                        2,
+                        3
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Mia Thomas",
+            "id": 16
+        },
+        {
+            "grade": 4,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        1,
+                        4,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        2
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Michael Smith",
+            "id": 17
+        },
+        {
+            "grade": 12,
+            "subjects": [
+                {
+                    "scores": [
+                        3,
+                        5,
+                        2,
+                        5,
+                        2,
+                        2,
+                        3
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        2,
+                        3,
+                        5,
+                        3
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        2,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        5,
+                        3,
+                        5,
+                        5,
+                        5,
+                        4
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Olivia Davis",
+            "id": 18
+        },
+        {
+            "grade": 6,
+            "subjects": [
+                {
+                    "scores": [
+                        4,
+                        3,
+                        4,
+                        1,
+                        4,
+                        3
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        3,
+                        3,
+                        5,
+                        5,
+                        4,
+                        3
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        5,
+                        4,
+                        3,
+                        1,
+                        4,
+                        3
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        3,
+                        4,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        5,
+                        5,
+                        2,
+                        2,
+                        3
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        5,
+                        3,
+                        5,
+                        3,
+                        4,
+                        5
+                    ],
+                    "subject": "P.E."
+                },
+                {
+                    "scores": [
+                        1,
+                        5,
+                        5,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "English"
+                }
+            ],
+            "name": "Sarah Brown",
+            "id": 19
+        },
+        {
+            "grade": 9,
+            "subjects": [
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        3,
+                        5,
+                        3
+                    ],
+                    "subject": "Math"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        3,
+                        5,
+                        5,
+                        5
+                    ],
+                    "subject": "History"
+                },
+                {
+                    "scores": [
+                        3,
+                        5,
+                        3,
+                        1,
+                        4,
+                        3,
+                        3
+                    ],
+                    "subject": "Science"
+                },
+                {
+                    "scores": [
+                        5,
+                        5,
+                        5,
+                        4,
+                        3,
+                        5
+                    ],
+                    "subject": "Art"
+                },
+                {
+                    "scores": [
+                        1,
+                        4,
+                        3,
+                        5,
+                        4,
+                        3
+                    ],
+                    "subject": "Music"
+                },
+                {
+                    "scores": [
+                        4,
+                        3,
+                        5,
+                        1,
+                        4,
+                        3
+                    ],
+                    "subject": "P.E."
+                }
+            ],
+            "name": "Sophia White",
+            "id": 20
+        }
+    ]
+}
