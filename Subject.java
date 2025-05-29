@@ -38,6 +38,7 @@ public class Subject {
     public void addScore(Teacher teacher, Student student, int score) {
         if (isTeacherAuthorized(teacher)) {
             studentScores.get(student).add(score);
+            student.scores.computeIfAbsent(this, k -> new ArrayList<>()).add(score);
         } else {
             System.out.println("You do not have rights to apply changes.");
         }
@@ -45,6 +46,7 @@ public class Subject {
 
     public void addScoreADMIN(Student student, int score) {
         studentScores.get(student).add(score);
+        student.scores.computeIfAbsent(this, k -> new ArrayList<>()).add(score);
     }
 
     private boolean isTeacherAuthorized(Teacher teacher) {

@@ -84,12 +84,6 @@ public class Teacher implements User {
     }
 
     public void showStudentScores(String name, Subject subject) {
-        /*
-        if (!subjects.contains(subject)) {
-            System.out.println("Error: Teacher " + this.name + " doesn't teach " + subject.getName());
-            return;
-        }
-        */
 
         System.out.println(name + "'s scores in " + subject.getName() + ":");
         boolean studentFound = false;

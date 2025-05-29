@@ -25,7 +25,6 @@ public class ClassLogBook {
 
     public void run() {
         showInitialMenu();
-        //Thread.sleep(2000);
         showMainMenu();
     }
 

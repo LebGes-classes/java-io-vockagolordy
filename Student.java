@@ -4,7 +4,7 @@ public class Student implements User {
     public String name;
     public int id;
     public int grade;
-    private Map<Subject, List<Integer>> scores;
+    public Map<Subject, List<Integer>> scores;
 
     public Student() {
         this.id = 0;
